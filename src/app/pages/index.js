@@ -177,6 +177,10 @@ const Page =
 // * verify session token (server side)
 // * get user info (server side)
 
+// https://firebase.google.com/docs/auth/admin/manage-users#retrieve_user_data
+// https://firebase.google.com/docs/auth/admin/verify-id-tokens
+// https://firebase.google.com/docs/reference/admin/node/admin.auth.UserRecord
+
 Page.getInitialProps =
   async () => {
     const state = await preload (['test'])
